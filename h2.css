@@ -47,6 +47,9 @@
 		to{background-color: white;
 			color: #7d33f6;}
 		}
+	@media screen and (min-width:768px)
+	and (max-width:1024px){
+		.box {margin-left:8rem;}}
 	.box #a:hover{
 		animation-name: in;
 		animation-play-state: running;
@@ -59,6 +62,8 @@
   		background-color: #7d33f6;
 		color: white;
 		animation-play-state: paused;}
+	@media screen and (max-width:750px){
+		.box{text-align:center;}}
 	.header a:link{
 		text-decoration: none;
 		color: #7d33f6;}
@@ -102,6 +107,12 @@
 		margin-top:2rem;
 		margin-bottom:2rem;
 		}
+	@media screen and (min-width:1200px){
+		.feature-img{
+			margin-top:-1rem;}
+		.feature-list{
+			width:45rem;}
+		}
 	.feature-list-top{
 		margin-left:1.8rem;
 		width:40rem;
@@ -109,7 +120,21 @@
 	.feature-list-bottom{
 		margin-left:1.8rem;
 		width:40rem;}
-		
+	@media screen and (max-width:750px){
+		.feature-list-top,
+		.feature-list-bottom{
+			width:100%;
+			margin-top:-1.2rem;}
+			}
+	@media screen and (min-width:768px)
+	and (max-width:1024px){
+		.feature-img{
+			width:100%;
+			text-align:center;
+		}
+		.feature-list{
+			margin-left:-12rem;}
+		}
 	.feature .bullet h3{
 		white-space: nowrap;
 		font-size: 1.9rem;
@@ -121,6 +146,6 @@
 		font-size:1.05rem;
 		color:#8b90a3;
 		}
-	
-	
-}
+	@media screen and (max-width:750px){
+		.bullet p, .bullet h3{width:80%;}}
+/*Feature end*/
