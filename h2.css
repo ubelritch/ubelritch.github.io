@@ -104,12 +104,6 @@
 		margin-top:2rem;
 		margin-bottom:2rem;
 		}
-	@media screen and (min-width:1200px){
-		.feature-img{
-			margin-top:-1rem;}
-		.feature-list{
-			width:45rem;}
-		}
 	.feature-list-top{
 		margin-left:1.8rem;
 		width:40rem;
@@ -117,7 +111,7 @@
 	.feature-list-bottom{
 		margin-left:1.8rem;
 		width:40rem;}
-	
+		
 	.feature .bullet h3{
 		white-space: nowrap;
 		font-size: 1.9rem;
@@ -129,8 +123,6 @@
 		font-size:1.05rem;
 		color:#8b90a3;
 		}
-	@media screen 
-    	and (max-width:400px){
-		.bullet p, .bullet h3{width:80%;}
+	
 	
 }
