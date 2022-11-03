@@ -48,8 +48,10 @@
 			color: #7d33f6;}
 		}
 	@media screen and (min-width:768px)
-	and (max-width:1024px){
+	and (max-width:1024px)
+	and (orientation : portrait){
 		.box {margin-left:8rem;}}
+	
 	.box #a:hover{
 		animation-name: in;
 		animation-play-state: running;
@@ -126,8 +128,9 @@
 			width:100%;
 			margin-top:-1.2rem;}
 			}
-	@media screen and (min-width:500px)
-	and (max-width:1024px){
+	@media screen and (min-width:600px)
+	and (max-width:1024px)
+	and (orientation : portrait){
 		.feature-img{
 			width:100%;
 			text-align:center;
@@ -135,6 +138,10 @@
 		.feature-list{
 			margin-left:-12rem;}
 		}
+	@media screen and (min-width:600px)
+	and (max-width:1024px)
+	and (orientation : landscape){
+		.feature-list{text-align:center;}}
 	.feature .bullet h3{
 		white-space: nowrap;
 		font-size: 1.9rem;
