@@ -120,6 +120,7 @@
 	@media only screen 
     	and (min-device-width : 320px) 
     	and (max-device-width : 480px) {
+		.feature-img{width:100%;}
 		.feature-list-top,
 		.feature-list-bottom{
 			width:80%;
@@ -128,7 +129,8 @@
 	@media only screen 
     	and (min-device-width : 768px) 
     	and (max-device-width : 1024px) {
-		.feature-img{width:100%;}}
+		.feature-img{width:100%;}
+	}
 	.feature .bullet h3{
 		white-space: nowrap;
 		font-size: 1.9rem;
