@@ -122,9 +122,6 @@
 	.feature-list-bottom{
 		margin-left:1.8rem;
 		width:40rem;}
-	@media screen and (min-width:600px)
-	and (max-width:800px){
-		.feature-list .bullet{width:60%;}
 	@media screen and (max-width:750px){
 		.feature-list-top,
 		.feature-list-bottom{
