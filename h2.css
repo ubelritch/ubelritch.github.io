@@ -137,6 +137,7 @@
 		.feature-list{
 			margin-left:-12rem;}
 		}
+	
 	@media screen and (min-width:1024px)
 	and (max-width:600px){
 		.feature-list{text-align:center;}}
