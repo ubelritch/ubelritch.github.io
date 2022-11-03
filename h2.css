@@ -49,7 +49,7 @@
 		}
 	@media screen and (min-width:768px)
 	and (max-width:1024px)
-	and (orientation : portrait){
+	{
 		.box {margin-left:8rem;}}
 	
 	.box #a:hover{
@@ -129,8 +129,7 @@
 			margin-top:-1.2rem;}
 			}
 	@media screen and (min-width:600px)
-	and (max-width:1024px)
-	and (orientation : portrait){
+	and (max-width:1024px){
 		.feature-img{
 			width:100%;
 			text-align:center;
@@ -138,9 +137,8 @@
 		.feature-list{
 			margin-left:-12rem;}
 		}
-	@media screen and (min-width:600px)
-	and (max-width:1024px)
-	and (orientation : landscape){
+	@media screen and (min-width:1024px)
+	and (max-width:600px){
 		.feature-list{text-align:center;}}
 	.feature .bullet h3{
 		white-space: nowrap;
